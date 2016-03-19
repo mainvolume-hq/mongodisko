@@ -1,0 +1,2 @@
+# mongodisko
+Disko for Mongo
