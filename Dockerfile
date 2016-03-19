@@ -6,8 +6,8 @@ ADD . /parse
 WORKDIR /parse
 RUN npm install
 
-ENV APP_ID setYourAppId
-ENV MASTER_KEY setYourMasterKey
+ENV APP_ID dockerified
+ENV MASTER_KEY masterkey
 ENV DATABASE_URI setMongoDBURI
 
 # Optional (default : 'parse/cloud/main.js')
